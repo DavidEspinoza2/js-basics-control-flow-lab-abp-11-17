@@ -13,5 +13,5 @@ function scuberGreetingForFeet(lengthOfRideInFeet){
 
 function ternaryCheckCity(){
   //condition ? expr1 : expr2
-  return "NYC" ? "Ok, sounds good." : "No go.";
+  return NYC ? "Ok, sounds good." : "No go.";
 }
