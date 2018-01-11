@@ -1,4 +1,16 @@
 // Write your code in this file!
+function switchOnCharmFromTip(charm){
+  case 'generous':
+    return "Thank you so much.";
+    break;
+  case 'not as generous':
+    return "Thank you.";
+    break;
+  case 'thanks for everything':
+    return 'Bye.';
+    break;
+}
+
 function scuberGreetingForFeet(lengthOfRideInFeet){
     if(lengthOfRideInFeet <= 400){
       return "This one is on me!";
@@ -15,14 +27,4 @@ function ternaryCheckCity(someString){
   return someString === 'NYC' ? 'Ok, sounds good.' : 'No go.';
 }
 
-function switchOnCharmFromTip(charm){
-  case 'generous':
-    return "Thank you so much.";
-    break;
-  case 'not as generous':
-    return "Thank you.";
-    break;
-  case 'thanks for everything':
-    return 'Bye.';
-    break;
-}
+
