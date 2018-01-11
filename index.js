@@ -12,6 +12,5 @@ function scuberGreetingForFeet(lengthOfRideInFeet){
 }
 
 function ternaryCheckCity(isNYC){
-  //condition ? expr1 : expr2
   return isNYC === 'NYC' ? 'Ok, sounds good.' : 'No go.';
 }
